@@ -12,7 +12,7 @@ locals {
   }
 
   ses = {
-    ses_domain_identity = "test-example.com"
+    ses_domain_identity = "example.com"
     notification_type   = ["Bounce", "Complaint", "Delivery"]
   }
 }
